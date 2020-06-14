@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://http://ec2-52-66-206-150.ap-south-1.compute.amazonaws.com:8081/artifactory</url>
+  <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
@@ -207,10 +207,10 @@
   </dependencyManagement>
 
   <scm>
-    <connection>scm:git:git@github.com/KPIDEV/hello-world.git</connection>
-    <developerConnection>scm:git:git@github.com/KPIDEV/hello-world.git</developerConnection>
+    <connection>scm:git:git@github.com:jleetutorial/maven-project.git</connection>
+    <developerConnection>scm:git:git@github.com:jleetutorial/maven-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/KPIDEV/hello-world.git</url>
+    <url>http://github.com/jleetutorial/maven-project</url>
   </scm>
 
   <prerequisites>
